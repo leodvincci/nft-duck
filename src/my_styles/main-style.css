@@ -143,8 +143,8 @@ main{
     justify-self: center;
     align-self: center;
     grid-row: 2 / 4;
-    grid-column: 3 / 5;
-    margin-left: 9.5rem;
+    grid-column: 4 / 5;
+    margin-left: .5rem;
 }
 
 .btn{
