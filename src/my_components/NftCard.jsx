@@ -1,11 +1,9 @@
 import TheNFT from "./TheNFT";
 import p1 from "../my_images/p1.png"
-import p2 from "../my_images/p2.png"
-import p3 from "../my_images/p3.png"
+
 import p4 from "../my_images/p4.png"
 import p5 from "../my_images/p5.png"
 import p6 from "../my_images/p6.png"
-import p7 from "../my_images/p7.png"
 function NftCard(){
 
     return(

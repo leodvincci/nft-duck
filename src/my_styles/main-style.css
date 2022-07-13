@@ -10,7 +10,7 @@
 #the-main {
     border-radius: 30px;
     width: 93%;
-    height: 93%;
+    height: 100%;
     border: rgba(38, 38, 38, 0.16) 3px solid;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
