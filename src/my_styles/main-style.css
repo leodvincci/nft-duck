@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+
+#the-main {
+    border-radius: 30px;
+    width: 93%;
+    height: 93%;
+    border: rgba(38, 38, 38, 0.16) 3px solid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  25rem 6rem 1fr;
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.44);
+
+}
+
+main{
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 1/1;
+    height: 25vh;
+}
+
+#the-header{
+    grid-column: 1 / 5;
+    grid-row: 1 / 1;
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px 30px 0 0;
+
+
+}
+
+
+
+#the-header-content-box{
+    justify-content: center;
+    font-size: .8rem;
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(3, 25%);
+}
+
+#temp-1{
+    align-self: center;
+    margin-bottom: 2rem;
+    grid-row: 1 / span 2;
+    grid-column: 2 / 4;
+}
+
+#current-price{
+
+    align-self: center;
+    grid-row: 2 /  4;
+    grid-column: 2 / 2;
+}
+
+#price-history{
+    grid-column: 2 / 2;
+    grid-row: 3 / 5;
+    align-self: center;
+}
+
+
+#the-form-boxes{
+    width: 100%;
+
+    font-size: 3rem;
+    grid-row: 2/2;
+    grid-column: 1 / 42;
+    background-image: linear-gradient(80deg , rgb(6, 53, 162), #3b44dc, rgb(25, 46, 204));
+
+}
+
+#all-category-select, #all-platform-select, #all-type-select, #search-input{
+    height: 50%;
+}
+
+#the-nft-ducks{;
+    height: 100%;
+    /*overflow: scroll;*/
+    font-size: 3rem;
+    grid-row: 3 / 3;
+    grid-column: 1 / 42;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 30px 30px;
+    border-top: 1px black dotted;
+
+
+}
+
+
+
+
+
+
+#the-form-boxes-content{
+
+}
+
+
+
+#the-nft-ducks-content{
+
+
+}
+
+#the-collective{
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / span 4;
+    margin-left: 2.5rem;
+}
+
+#nft-img{
+    align-self: center;
+    justify-self: center;
+    height: 90%;
+    width: 90%;
+    grid-column: 1 / 1;
+    grid-row: 1 / 5;
+    border-radius: 45px;
+    /*border: #6101fd 8px solid;*/
+    margin-right: 9.5rem;
+
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.22);
+
+}
+
+#my-btns{
+
+
+    justify-self: center;
+    align-self: center;
+    grid-row: 2 / 4;
+    grid-column: 3 / 5;
+    margin-left: 9.5rem;
+}
+
+.btn{
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(80deg , #153b96, #3b44dc);
+    border-radius: 15px;
+    border: none;
+    margin: 2rem;
+    height: 80px;
+    font-size: 1rem;
+    width: 180px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-image: none;
+    background-color: #1f202f;
+}
+
+.btn-2{
+    text-align: center;
+
+    color: rgb(49, 43, 203);
+    font-weight: bolder;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin: 2rem;
+    font-size: 1rem;
+    width: 180px;
+
+}
+
